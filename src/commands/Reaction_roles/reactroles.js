@@ -267,7 +267,7 @@ async function handleSetup(interaction) {
                     label: truncateText(role.name, SELECT_OPTION_LABEL_LIMIT),
                     description: truncateText(`Add/remove the ${role.name} role`, SELECT_OPTION_DESCRIPTION_LIMIT),
                     value: role.id,
-                    emoji: '🎭'
+                    emoji: '🫧'
                 }))
             )
     );
